@@ -112,3 +112,69 @@ Array.prototype.map = function(funcao) {
     }
     return novoArray
 }
+
+## Para guardar dados desordenados/logs/enfim...
+- https://www.elastic.co/
+    - Usem o kibana
+- https://www.youtube.com/watch?v=M7le0OEF9NQ
+- https://hadoop.apache.org/
+
+## Usando MySQL 
+1 - Logar no mysql
+```terminal
+mysql -u root -p  
+Enter password: caelum
+```
+2 - CREATE DATABASE casadocodego;
+3 - USE casadocodego;
+4 - 
+CREATE TABLE livros (
+    id INT(11) NOT NULL AUTO_INCREMENT,
+    titulo VARCHAR(255) DEFAULT NULL,
+    preco DECIMAL(10,2) DEFAULT NULL,
+    descricao TEXT,
+    PRIMARY KEY (id)
+)
+5 - 
+INSERT INTO livros (titulo, preco, descricao)
+VALUES ('Livro Ruby', 10.10, 'Um livro show');
+
+INSERT INTO livros (titulo, preco, descricao)
+VALUES ('Livro NodeJS', 10.10, 'Um livro show');
+
+6 - SELECT * FROM livros;
+> Tem que aparecer os livros criados por vocês :) 
+
+
+MySQL
+- Relacional
+- SQL é que faz as consultas/inserções
+- Consistência de dados
+    - Garantir a integridade dos relacionamentos consome tempo/processamento
+        - 
+
+- Cliente
+    - Pedido
+- Produtos
+    - Promoção
+
+
+MongoDB
+- Não Relacional
+- Sintaxe para mexer parece JS
+- Consistência de dados
+    - Muito bom para escrita!
+    - Duplicatas
+
+
+- Log
+- Dados sem estrutura 
+
+## Processando coisas muito pesadas com Node
+- https://www.npmjs.com/package/co (Co routines)
+
+
+## Dicas de Livros
+- https://www.amazon.com.br/Refactoring-Improving-Design-Existing-Code/dp/0134757599?tag=goog0ef-20&smid=A1ZZFT5FULY4LN&ascsubtag=go_1494986073_58431735035_285514469186_aud-519888259198:pla-485032980911_c_
+- https://www.youtube.com/watch?v=Nsjsiz2A9mg
+- https://www.amazon.com.br/C%C3%B3digo-limpo-Robert-C-Martin/dp/8576082675?tag=goog0ef-20&smid=A1CMRKH3IQBK4B&ascsubtag=go_1494986073_58431735035_285514469186_aud-519888259198:pla-566080525912_c_

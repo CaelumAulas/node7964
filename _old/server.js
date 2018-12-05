@@ -14,7 +14,9 @@ var app = http.createServer(function (request, response) {
     console.log('Temos um request!')
     
     if(rotas[request.url][request.url]) {
-        rotas[request.url](request,response)
+        setTimeout(function() {
+            rotas[request.url](request,response)
+        }, 0)
     } else {
         response.statusCode = 404
         response.end('Pagina 404')    
