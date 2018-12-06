@@ -178,3 +178,7 @@ MongoDB
 - https://www.amazon.com.br/Refactoring-Improving-Design-Existing-Code/dp/0134757599?tag=goog0ef-20&smid=A1ZZFT5FULY4LN&ascsubtag=go_1494986073_58431735035_285514469186_aud-519888259198:pla-485032980911_c_
 - https://www.youtube.com/watch?v=Nsjsiz2A9mg
 - https://www.amazon.com.br/C%C3%B3digo-limpo-Robert-C-Martin/dp/8576082675?tag=goog0ef-20&smid=A1CMRKH3IQBK4B&ascsubtag=go_1494986073_58431735035_285514469186_aud-519888259198:pla-566080525912_c_
+
+
+## Ajude o front do seu trampo:
+- https://reactjs.org/docs/hooks-intro.html

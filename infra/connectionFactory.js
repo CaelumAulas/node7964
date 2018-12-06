@@ -1,7 +1,7 @@
 var mysql      = require('mysql');
 
 function connectionFactory() {
-    var connection = mysql.createConnection({
+    var connection = mysql.createPool({
         host     : 'localhost',
         user     : 'root',
         password : '', // caelum
