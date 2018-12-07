@@ -3,6 +3,11 @@
 <div>
     <div class ="container min-container">
         <h2 class="basic-title">Add</h2>
+        <% if(locals.errors) { %>
+            <% for(erro of errors) { %>
+                <li><%= erro.message %></li>
+            <% } %>
+        <% } %>
 
         <form action="/produtos" method="post" class="well" role="form">
             <div class="form-group">

@@ -182,3 +182,8 @@ MongoDB
 
 ## Ajude o front do seu trampo:
 - https://reactjs.org/docs/hooks-intro.html
+
+
+## Coisas de API
+- https://www.telerik.com/fiddler
+- https://www.telerik.com/

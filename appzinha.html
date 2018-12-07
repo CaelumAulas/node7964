@@ -1,0 +1,38 @@
+<ul>
+    <li>
+        Carregando...
+    </li>
+</ul>
+
+
+<script>
+// setInterval(() => {
+    fetch('http://localhost:3000/produtos', {
+        headers: {
+            'Accept': 'application/json'
+        }
+    })
+    .then(async (response) => { // ES7
+        const resultado = await response.json() // Promise
+        
+        const listaEmHTML = resultado.livros.map((livro) => {
+            return `<li>${livro.titulo}</li>`
+        }).join('')
+        document.querySelector('ul').innerHTML = listaEmHTML
+    })
+// }, 100) // dado quente
+
+
+
+        // lógica
+        // variaveis
+        // funcao
+        // parametro
+        // retorno de funcao
+        // callback
+        // promise
+        // async/await
+</script>
+
+Cross Origin
+Ressource Sharing
