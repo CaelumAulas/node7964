@@ -187,3 +187,28 @@ MongoDB
 ## Coisas de API
 - https://www.telerik.com/fiddler
 - https://www.telerik.com/
+
+
+## Dicas de deploy
+- https://code.lengstorf.com/deploy-nodejs-ssl-digitalocean/
+- Root: https://aws.amazon.com/free/?sc_channel=PS&sc_campaign=acquisition_BR&sc_publisher=google&sc_medium=ACQ-P%7CPS-GO%7CBrand%7CDesktop%7CSU%7CCore%7CCore%7CBR%7CEN%7CText&sc_content=Brand_Core_HV_e&sc_detail=aws&sc_category=Core&sc_segment=293653263287&sc_matchtype=e&sc_country=BR&s_kwcid=AL!4422!3!293653263287!e!!g!!aws&ef_id=EAIaIQobChMIiYiUqNyO3wIVEwaRCh2IbQrvEAAYASAAEgLTQvD_BwE:G:s
+- Meio termo: https://www.digitalocean.com/products/droplets/?_campaign=G|SEARCH|B|CORE&_adgroup=CORE|DigitalOcean&_keyword=digital%20ocean&_device=c&_copytype=biz_ad&_adposition=1t1&_medium=brand_sem&_source=google&_dkitrig=&_2dkitrig=&gclid=EAIaIQobChMIltDkn9yO3wIVlquWCh2TswcREAAYASAAEgJm5fD_BwE
+- Nutella: https://devcenter.heroku.com/articles/git
+
+
+- Curso de docker pago: 
+    - https://cursos.alura.com.br/course/docker-e-docker-compose 
+- Fonte gratuita: https://github.com/gomex/docker-para-desenvolvedores
+
+## Testes
+- Testes
+    - Documentação
+        - **Um código bem escrito já substitui uma documentação**
+        - Mofa, ngm mexe nisso;
+    - Human: Sempre façam 
+    - Unitário: É o teste de uma parte pequena do sistema tipo uma função 
+    - Integração: 
+    - Aceitação/e2e: https://www.cypress.io/ 
+    - Carga: https://artillery.io/docs/getting-started/
+    - essencial
+    - wtf?

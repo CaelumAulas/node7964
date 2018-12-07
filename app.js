@@ -1,11 +1,28 @@
-console.log('alo alo')
+// Base de configs
 const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
 
-
-
 app.set('view engine', 'ejs')
+
+
+const cors = require('cors')
+app.use(cors())
+
+// fetch('http://localhost:3000/produtos', {
+// 	method: 'POST',
+// 	headers: {
+// 		'Accept': 'application/json',
+// 		'Content-type': 'application/json'
+// 	},
+// 	body: JSON.stringify({
+//         "titulo": "teste",
+//         "preco": 10,
+//         "descricao": "uadshudashudsahuasduh"
+//     })
+// })
+
+
 
 // 1 - Ajustar o bodyparser pra receber JSON
 app.use(bodyParser.json({ extended: false }))
@@ -21,10 +38,17 @@ app.use(express.static('./public'))
 
 // })
 
-require('./rotas/home')(app)
 
-const rotaProdutos = require('./rotas/produtos')
-rotaProdutos(app)
+// Autoload 
+const consign = require('consign')
+consign()
+    .include('./rotas')
+    .into(app)
+// require('./rotas/home')(app)
+// require('./rotas/produtos')(app)
+
+// const rotaProdutos = require('./rotas/produtos')
+// rotaProdutos(app)
 
 
 app.use((req,res) => {
