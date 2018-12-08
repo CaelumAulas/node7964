@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha ./tests --recursive",
     "start": "node server.js",
     "dev": "./node_modules/.bin/nodemon server.js"
   },
@@ -12,13 +12,16 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "chai": "^4.2.0",
     "consign": "^0.1.6",
     "cors": "^2.8.5",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
     "joi": "^14.3.0",
+    "mocha": "^5.2.0",
     "mysql": "^2.16.0",
     "nodemon": "^1.18.7",
+    "supertest": "^3.3.0",
     "yup": "^0.26.6"
   }
 }

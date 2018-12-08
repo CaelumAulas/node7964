@@ -207,8 +207,9 @@ MongoDB
         - Mofa, ngm mexe nisso;
     - Human: Sempre façam 
     - Unitário: É o teste de uma parte pequena do sistema tipo uma função 
-    - Integração: 
+    - Integração: APIs
     - Aceitação/e2e: https://www.cypress.io/ 
     - Carga: https://artillery.io/docs/getting-started/
     - essencial
     - wtf?
+- code review: https://hipsters.tech/pull-requests-e-code-review-hipsters-64/
